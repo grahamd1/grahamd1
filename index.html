@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"></div>
+      <div class="list-group list-group-flush" id="myList" role="tablist">
+        <a href="#overview" class="list-group-item list-group-item-action bg-light" data-toggle="list" role="tab">Overview</a>
+        <a href="#education" class="list-group-item list-group-item-action bg-light" data-toggle="list" role="tab">Education</a>
+        <a href="#workExperience" class="list-group-item list-group-item-action bg-light" data-toggle="list" href="#list-home">Work Experience</a>
+        <a href="#interests" class="list-group-item list-group-item-action bg-light" data-toggle="list" href="#list-home">Interests</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Contact</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="tab-content">
+        <div class="tab-pane container-fluid active" id="overview" role="tabpanel">
+          <h1 class="mt-4">Overview</h1>
+          <div class="text-center">
+            <img src="images/voysis_profile_picture.png" class="rounded w-25" alt="...">
+          </div>
+          <p>I am a software engineer and student studying computing and IT management.</p>
+          <h2>Skills</h2>
+          <h4>Languages</h4>
+          <p>C/C++, Python Java</p>
+          <h4>Frameworks</h4>
+          <p>AWS, Docker, Flask, MongoDB, Git, Jenkins, Atlassian tools, GDB, Valgrind, REST, Tensorflow</p>
+        </div>
+        <div class="tab-pane container-fluid" id="education" role="tabpanel">
+          <h1 class="mt-4">Education</h1>
+          <p>
+            TU Dublin - Dublin, Ireland
+          </p>
+          <p>
+            Computing with IT Management
+          </p>
+          <p>
+            Oct 2019 - Present
+          </p>
+          <hr>
+          <p>
+            Trinity College Dublin - Dublin, Ireland
+          </p>
+          <p>
+            Computer Science, Linguistics and French
+          </p>
+          <p>
+            Sep 2010 - May 2013
+          </p>
+        </div>
+        <div class="tab-pane container-fluid" id="workExperience" role="tabpanel">
+          <h1 class="mt-4">Work Experience</h1>
+            <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#softwareEngineer" aria-expanded="false" aria-controls="softwareEngineer">
+                Software Engineer - Voysis
+              </button>
+            </p>
+            <div class="collapse" id="softwareEngineer">
+              <div class="card card-body">
+                Dublin, Ireland
+                Jan 2017 - Present
+                <ul>
+                  <li>Lead projects for improving and maintaining customer services, organising work items and team members.</li>
+                  <li>Maintained customer-facing, cloud-based services.</li>
+                  <li>Built a pipeline that processes customer data in a configurable way, which produces data for ASR and NLU model training.</li>
+                  <li>Added an NLG component that generates replies based on user queries.</li>
+                </ul>
+              </div>
+              <br>
+            </div>
+            <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#juniorSoftwareEngineer" aria-expanded="false" aria-controls="juniorSoftwareEngineer">
+                Junior Software Engineer - Voysis
+              </button>
+            </p>
+            <div class="collapse" id="juniorSoftwareEngineer">
+              <div class="card card-body">
+                Dublin, Ireland
+                Jan 2015 - Dec 2016
+                <ul>
+                  <li>Implemented a neural network training tool and continuously added new functionality in the form of activation functions, layer types, loss functions, and other training options.</li>
+                  <li>Created an io library for use in neural network training to optimise the batching and distribution of training data.</li>
+                </ul>
+              </div>
+              <br>
+            </div>
+            <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#softwareEngineerIntern" aria-expanded="false" aria-controls="softwareEngineerIntern">
+                Software Engineer Intern - Voysis
+              </button>
+            </p>
+            <div class="collapse" id="softwareEngineerIntern">
+              <div class="card card-body">
+                Dublin, Ireland
+                Sep 2014 - Dec 2014
+                <ul>
+                  <li>Implemented text normalisation functions for different languages, including English, Hindi, and Arabic.</li>
+                  <li>Created a codec for encoding text data, and also allowing for compression.</li>
+                </ul>
+              </div>
+              <br>
+            </div>
+        </div>
+        <div class="tab-pane container-fluid" id="interests" role="tabpanel">
+          <h1 class="mt-4">Interests</h1>
+          <ul>
+            <li>Swimming</li>
+            <li>Tennis</li>
+            <li>Gaming</li>
+            <li>Technology and programming</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModal" role="dialog" style="display: none;">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">×</button>
+					  <h4 class="modal-title">Contact Info</h4>
+					</div>
+					<div class="modal-body">
+            <p>Phone: 0852835839</p>
+            <p>Email: x00168286@mytudublin.ie</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
